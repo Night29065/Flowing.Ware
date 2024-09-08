@@ -1,5 +1,4 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/ESP-Library/main/Kiriot22/source.lua"))()
 
 
 library.rank = "Sigma"
@@ -29,7 +28,7 @@ local Section1 = Tab1:NewSection("Features")
 
 local Label1 = Tab1:NewLabel("Example label", "left")--"left", "center", "right"
 
-local Toggle1 = Tab1:NewToggle("Esp", false, function(value)ESP:Toggle(<Boolean>)
+local Toggle1 = Tab1:NewToggle("Esp", false, function(value)
     local vers = value and "on" or "off"
     print("one " .. vers)
 end)
