@@ -38,7 +38,7 @@ local Toggle2 = Tab1:NewToggle("Toggle", false, function(value)
     print("two " .. vers)
 end)
 
-local Button1 = Tab1:NewButton("Button", function()
+local Button1 = Tab1:NewButton("Destroy Gui", function()library:Remove()
     print("one")
 end)
 
