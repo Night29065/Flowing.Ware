@@ -582,8 +582,8 @@ local EspInterface = {
 			chamsOutlineColor = { Color3.new(1,0,0), 0 },
 		},
 		friendly = {
-			enabled = false,
-			box = false,
+			enabled = true,
+			box = true,
 			boxColor = { Color3.new(0,1,0), 1 },
 			boxOutline = true,
 			boxOutlineColor = { Color3.new(), 1 },
