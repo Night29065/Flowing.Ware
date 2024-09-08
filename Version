@@ -29,7 +29,7 @@ local Section1 = Tab1:NewSection("Features")
 
 local Label1 = Tab1:NewLabel("Example label", "left")--"left", "center", "right"
 
-local Toggle1 = Tab1:NewToggle("Tpwalk", false, function(value)
+local Toggle1 = Tab1:NewToggle("Esp", false, functionESP:Toggle(<Boolean>)
     local vers = value and "on" or "off"
     print("one " .. vers)
 end)
