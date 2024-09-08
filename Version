@@ -1,7 +1,7 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/ESP-Library/main/Kiriot22/source.lua"))()
 
-
-library.rank = " .. library:GetUsername() .. "
+library.rank = "#1 Accused"
 local Wm = library:Watermark("xsx example | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
 local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
 coroutine.wrap(function()
@@ -21,14 +21,14 @@ library:Introduction()
 wait(1)
 local Init = library:Init()
 
-local Tab1 = Init:NewTab("Destory Cheaters Stuff")
+local Tab1 = Init:NewTab("Misc")
 
 local Section1 = Tab1:NewSection("Features")
 
 
 local Label1 = Tab1:NewLabel("Example label", "left")--"left", "center", "right"
 
-local Toggle1 = Tab1:NewToggle("Example toggle", false, function(value)
+local Toggle1 = Tab1:NewToggle("", false, function(value)ESP:Toggle(<Boolean>)
     local vers = value and "on" or "off"
     print("one " .. vers)
 end)
